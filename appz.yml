@@ -1,5 +1,5 @@
 app:
-    name: Postgres KayCloak Master
+    name: Postgres KeyCloak Master
     code: POSTGRES
     notify: skumar@ecloudcontrol.com
     
