@@ -1,5 +1,5 @@
 app:
-    name: Postgres Master
+    name: Postgres KayCloak Master
     code: POSTGRES
     notify: skumar@ecloudcontrol.com
     
@@ -35,8 +35,8 @@ properties:
     POSTGRESQL_SYNCHRONOUS_COMMIT_MODE: on
     POSTGRESQL_NUM_SYNCHRONOUS_REPLICAS: 1
     POSTGRESQL_REP_USER: replica
-    POSTGRESQL_SPRINGBOOTWEB_PASSWORD:
-          vault: POSTGRESQL_SPRINGBOOTWEB_PASSWORD
+    POSTGRESQL_KEYCLOAK_PASSWORD:
+          vault: POSTGRESQL_KEYCLOAK_PASSWORD
     PGPASSWORD: 
       vault: PGPASSWORD
     revision : 77
